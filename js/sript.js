@@ -1,4 +1,4 @@
-/*"use strict";
+"use strict";
 console.log("учим js");
 ['учим',"js"].forEach(alert);
 console.log('учим' + 'js');
@@ -209,8 +209,8 @@ let num7 =0
 for (;num7 < 5; num7++) {
     if(num ==2) continue;
     console.log(num7)
-}  */
-firstFor: for (let num8 = 0; mum8 < 2; num8++) {
+} 
+firstFor: for (let num8 = 0; num8 < 2; num8++) {
     for(let size = 0; size < 3; size++) {
         if (size == 2){
             break firstFor;
