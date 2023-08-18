@@ -204,7 +204,7 @@ for (;num6 < 5; num6++) {
     console.log(num6);
     if(num ==2) break;
 }
-console.log('Забота окончена,unm6 = ${num}');
+console.log(`Забота окончена,unm6 = ${num}`);
 let num7 =0 
 for (;num7 < 5; num7++) {
     if(num ==2) continue;
@@ -220,21 +220,20 @@ getNumTwo();
 let numSumm = numOne + numTwo;
 console.log(numSumm); 
 }
-function calcSumm(numOne = 1,numTow = 2) {
-    console.log('numOne:${numOne}');
-    console.log('numTow:${numTow}');
-}
-calcSumm(5, 5);
-function getSumm1 (numOne, numTow) {
-    let numSumm1 = numOne + numTow;
-    return numSumm1;
-};
-let funcRezult = getSumm2(1 , 2);
-console.log('сума: ${funcRezult}');
 function getSumm2 (numOne, numTwo){
     return numOne + numTwo;
 };
-getSumm2(5,5);
+calcSumm(5, 5);
+function getSumm (numOne, numTow) {
+    let numSumm = numOne + numTow;
+    return numSumm;
+};
+let funcRezult = getSumm2(1 , 2);
+console.log(`сума: ${funcRezult}`);
+function getSumm2 (numOne, numTwo){
+    return numOne + numTwo;
+};
+const x1 = getSumm2(5,5);
 let showMessage = function(){
    console.log('привет!');
 };
@@ -242,5 +241,9 @@ function getSumm3(){
     let summ = 1 + 2;
 };
 let someVar= getSumm3;
-someVar();
-getSumm3();
+const x2 =someVar();
+const x3 =getSumm3();
+
+console.log()
+console.log()
+console.log()
