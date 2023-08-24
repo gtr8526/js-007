@@ -223,7 +223,6 @@ console.log(numSumm);
 function getSumm2 (numOne, numTwo){
     return numOne + numTwo;
 };
-calcSumm(5, 5);
 function getSumm (numOne, numTow) {
     let numSumm = numOne + numTow;
     return numSumm;
@@ -241,9 +240,5 @@ function getSumm3(){
     let summ = 1 + 2;
 };
 let someVar= getSumm3;
-const x2 =someVar();
-const x3 =getSumm3();
-
-console.log()
-console.log()
-console.log()
+someVar();
+getSumm3();
